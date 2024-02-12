@@ -1,0 +1,481 @@
+<html>
+
+<head>
+<title>website.com</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;700&family=Roboto+Mono:wght@200&family=Roboto+Serif:wght@200&family=Rubik+Bubbles&family=Rubik+Scribble&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+	*
+	{
+		margin:0px;
+		padding:0px;
+		box-sizing: border-box;
+	}
+	
+	.main
+	{
+		height:80px;
+		width:100%;
+		background-color:white;
+	}
+	
+	.img
+	{
+		height:80px;
+		width:20%;
+		background-color:white;
+		float:left;
+	}
+
+	.a
+	{
+		height:80px;
+		width:80%;
+		background-color:white;
+		margin-left:300px;
+	}
+	
+	ul li
+	{
+		list-style-type:none;
+		margin-left:600px;
+	}
+	
+	ul li a
+	{
+		text-decoration:none;
+		color:black;
+		display:block;
+		float:left;
+		padding:25px 38px;
+		font-size:18px;
+		font-family:Roboto Mono;
+	}
+	.a a:hover
+	{
+		color:#3df56e;
+	}
+	.img2
+	{
+		height:500px;
+		width:100%;
+		background-image:url("g3.jfif");
+		background-size:cover;
+	}
+	
+	.input
+	{
+		height:50px;
+		width:230px;
+		margin-left:42.5%;
+		font-size:20px;
+	}
+	
+	.input:focus{
+		background-color:green;
+		color:white;
+		cursor:hand;
+	}
+	.product
+	{
+		height:400px;
+		width:100%;
+	
+	}
+	.product .logo1
+	{
+		height:350px;
+		width:350px;
+		margin-left:150px;
+		float:left;
+	}
+	
+	.product .logo1 .one
+	{
+		height:100px;
+		width:100px;
+		border-radius:50%;
+		margin-left:120px;
+		margin-top:30px;
+		background-color:#32f520;
+	}
+	.product .logo1 .one i
+	{
+		margin-top:15px;
+		margin-left:15px;
+		color:white;
+	}
+	.product .logo1 .one:hover
+	{
+		background-color:green;
+		cursor:hand;
+	}
+	.product .logo2
+	{
+		height:350px;
+		width:350px;
+		margin-left:70px;
+		float:left;
+	}
+	.product .logo2 .two
+	{
+		height:100px;
+		width:100px;
+		border-radius:50%;
+		margin-left:120px;
+		margin-top:30px;
+		background-color:#32f520;
+	}
+	.product .logo2 .two i
+	{
+		margin-top:15px;
+		margin-left:15px;
+		color:white;
+	}
+	.product .logo2 .two:hover
+	{
+		background-color:green;
+		cursor:hand;
+	}
+	.product .logo3
+	{
+		height:350px;
+		width:350px;
+		margin-left:1000px;
+	}
+	
+	.product .logo3 .three
+	{
+		height:100px;
+		width:100px;
+		border-radius:50%;
+		margin-left:120px;
+		margin-top:30px;
+		background-color:#32f520;
+	}
+	.product .logo3 .three i
+	{
+		margin-top:15px;
+		margin-left:15px;
+		color:white;
+	}
+	.product .logo3 .three:hover
+	{
+		background-color:green;
+		cursor:hand;
+	}
+	
+	.about
+	{
+		height:400px;
+		background-color:#b6e6b1;
+	}
+	.about .left
+	{
+		width:50%;
+		height:400px;
+		float:left;
+	}
+	.about .right
+	{
+		width:50%;
+		height:400px;
+		float:right;
+	}
+	.about .right img
+	{
+		height:300px;
+		width:450px;
+		margin-left:150px;
+		margin-top:50px;
+		opacity:0.8;
+	}
+	.about .right img:hover
+	{
+			opacity:0.9;
+			cursor:hand;
+	}
+	#girl
+	{
+		height:250px;
+		width:100%;
+	}
+	#girl .p1
+	{
+		height:250px;
+		width:30%;
+		float:left;
+		position:absolute;
+		margin-left:140px;
+	}
+	#girl .p1 .pic
+	{
+		height:150px;
+		width:150px;
+		border-radius:50%;
+		margin-left:300px;
+		margin-top:60px;
+		background-image:url(chhokri.jpg);
+		position:relative;
+	}
+	#girl .p2
+	{
+		height:250px;
+		width:50%;
+		float:left;
+		margin-left:600px;
+	}
+	
+	#girl .p2 h2
+	{
+	margin-left:40px;
+	position:relative;
+	margin-top:50px;
+	}
+	
+	.textbox
+	{
+	height:100px;
+	width:100%;
+	background-color:#5fe65c;
+	}
+	
+	.textbox .input1
+	{
+		height:60px;
+		width:400px;
+		font-size:20px;
+		background-color:#5fe65c;
+		border:white solid 2px;
+		color:white;
+		margin-left:400px;
+		margin-top:15px;
+		padding:10px;
+	}
+	
+	.textbox .input2
+	{
+		height:60px;
+		width:150px;
+		font-size:20px;
+		color:#5fe65c;
+		margin-left:50px;
+		margin-top:15px;
+		background-color:white;
+		border:none;
+
+	}
+	.textbox .input2:hover
+	{
+		background-color:green;
+		color:white;
+	}
+	
+	.company
+	{
+	height:300px;
+	width:100%
+	border:1px solid black;
+	}
+	
+	.company .c1
+	{
+	height:250px;
+	width:25%;
+	border-radius:20px;
+	float:left;
+	margin-left:180px;
+	margin-top:25px;
+	background-color:#98faaa;
+	}
+	
+	.company .c2
+	{
+	height:250px;
+	width:25%;
+	border-radius:20px;
+	float:left;
+	margin-left:17px;
+	margin-top:25px;
+	background-color:#4ca655;
+	}
+	
+	.company .c2 ul li
+	{
+	margin-left:140px;
+	margin-top:15px;
+	font-size:20px;
+	}
+	
+	.company .c2 ul li:hover
+	{
+	color:green;
+	}
+	
+	.company .c3
+	{
+	height:250px;
+	width:25%;
+	border-radius:20px;
+	margin-left:64%;
+	position:absolute;
+	margin-top:25px;
+	background-color:#98faaa;
+	}
+	.company .c3 .fa-whatsapp:hover
+	{
+		color:green;
+	}
+	.company .c3 .fa-twitter:hover
+	{
+		color:blue;
+	}
+	.company .c3 .fa-envelope:hover
+	{
+		color:purple;
+	}
+	
+	.f1
+	{
+		height:50px;
+		width:100%;
+		background-color:black;
+		opacity:0.9;
+	}
+</style>
+
+
+</head>
+
+<body>
+
+	<div class="main">
+	
+	<div class="img">
+		<img src="g.jfif" style="height:60px; width:60px; margin-left:100px; margin-top:10px;"/>
+	</div>
+	
+	<div class="a">
+	<ul>
+	<b><li><a href="home1.html">home</a></li></b>
+	<b><li><a href="pro.html">product</a></li></b>
+	<b><li><a href="pri.html">pricing</a></li></b>
+	<b><li><a href="cu.html">contact us</a></li></b>
+	</ul>
+	</div>
+	</div>
+	
+	<div class="img2"> 
+	<br><br><br><br><br> 
+		<h1 style="text-align:center;">WE HELP YOUR BUSINESS</h1><br><br>
+		<h2 style="text-align:center;">It is a long establised fact that a reader will be distracted by</h2>
+		<h2 style="text-align:center; "> the readable content of a page when looking at its layout.</h2>
+		<br><br><br><br>
+		<input type="submit" name="btn" value="LEARN MORE" class="input"/>
+	</div> <!-- Image tag Complete -->
+	
+	<div class="product"> <br><!-- Product Section Start -->
+	
+		<h1 align="center">OUR PRODUCT</h1>
+	
+		<div class="logo1">			<!-- Logo1 Section -->	
+			<div class="one">
+				<i class="fa-regular fa-star fa-4x"></i>
+			</div><br>
+			<h1 align="center">SEO</h1><br>
+			
+			<p  align="center" style="font-size:20px;">It is a long establised<br>fact that a reader will<br>distracted by the</p>
+			
+		</div>
+		
+		<div class="logo2">  		<!-- Logo2 Section -->
+			<div class="two">
+				<i class="fa-regular fa-star fa-4x"></i>
+			</div><br>
+			
+			<h1 align="center">BRANDING</h1><br>
+			
+			<p  align="center" style="font-size:20px;">It is a long establised<br>fact that a reader will<br>distracted by the</p>
+		</div>
+		
+		<div class="logo3">			<!-- Logo3 Section -->
+			<div class="three">
+				<i class="fa-regular fa-star fa-4x"></i>
+			</div><br>
+			
+			<h1 align="center">LOGO</h1><br>
+			
+			<p  align="center" style="font-size:20px;">It is a long establised<br>fact that a reader will<br>distracted by the</p>
+		</div>
+	</div>  <!-- Product Section complete -->
+	
+	
+	<div  class="about">	 <!-- About us section Start -->
+		<div class="left">		<!-- Left section Start -->
+			<h1 align="center" style="margin-top:70px;">ABOUT US</h1>
+			<p  align="center" style="font-size:20px;margin-top:30px;">In publishing and graphic design, Lorem ipsum is <br>a placeholder text commonly used to demonstrate<br>form of a document or a typeface without relying on <br>meaningful content. Lorem ipsum may be used<br> as a placeholder before final copy is available.<br>visual form of a document or a typeface without<br> relying on meaningful content available.</p>
+		</div>		<!-- Left section complete -->
+		
+		<div class="right">		<!-- rigth section Start -->
+			<img src="c2.jpg"/>
+		</div>		<!-- rigth section complete -->
+
+	</div>		<!-- About us section complete -->
+	
+	<div id="girl">	<!-- Girl section complete -->
+		<div class="p1">
+			<div class="pic"></div>
+		</div>
+		
+		<div class="p2"> 
+			<h2>JOHN CEO</h2>
+			<p style="font-size:20px; margin-left:40px;margin-top:10px;">In publishing and graphic design, Lorem ipsum is <br>a placeholder text commonly used to demonstrate<br>form of a document or a typeface without relying on <br>meaningful content.commonly used to demonstrate<br>form of a document meaningful content.</p>
+		</div>
+	</div>
+	
+		<div class="textbox">
+			<input type="text" name="mail" value="Email ID" class="input1"/>
+			
+			<input type="button" name="btn" value="SUBMIT" class="input2"/>
+		</div>
+	
+		<div class="company">
+		
+		<div class="c1">
+		<h1  style="text-align:center;margin-top:30px;"> ABOUT COMAPANY</h1>
+		<p style="font-size:17px; text-align:center; margin-top:30px;">In publishing and graphic design, Lorem ipsum is <br>a placeholder text commonly used to demonstrate<br>form of a document or a typeface without relying on <br>meaningful content.commonly used to demonstrate<br>form of a document meaningful content.</p>
+		</div>
+		
+		<div class="c2">
+		<h1  style="text-align:center;margin-top:10px;">QUICK LINKS</h1>
+		
+		<ul>
+		<li>HOME</li>
+		<li>SERVICE</li>
+		<li>CONTACT</li>
+		<li>ABOUT AS</li>		
+		</ul>
+		
+		</div>
+		
+		<div class="c3">
+			<h1 style="text-align:center;margin-top:10px;">CONTACT US </h1>
+			<p  style="text-align:center;margin-top:30px;font-size:20px;">Business1308@gmail.com</p>
+			<p  style="text-align:center;margin-top:10px; font-size:20px;">+91 0281 5252552</p>
+			
+			<i class="fa-brands fa-whatsapp fa-2x" style="margin-left:130px;"></i>
+			<i class="fa-brands fa-twitter fa-2x"style="margin-left:10px; margin-top:30px;"></i>
+			<i class="fa-solid fa-envelope fa-2x" style="margin-left:10px; margin-top:30px;"></i>
+		</div>
+		
+		</div>
+		
+		<div class="f1">
+			<p style="color:white;font-size:20PX;padding-top:10px;" align="center">WWW.BUSINESS.COM</p>
+		</div>
+	
+</body>
+
+</html>
